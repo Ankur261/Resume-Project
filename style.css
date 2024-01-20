@@ -22,6 +22,67 @@ body {
 
 /* Horizontal Lists */
 
+nav.dropdown-menu {
+    display:flex ;
+   justify-content: end;
+    
+}
+
+.bars{
+    width: 40px;
+    color: white;
+    margin: 0;
+    margin-right: 5%;
+    display: none;
+}
+
+.bars i {
+    font-size: 2rem;
+}
+
+.dropdown-list{
+    margin: 0;
+    display: none;
+    background-color: #828470;
+    box-shadow: 0px 4px 8px 1px #535547;
+}
+
+.dropdown-list ul{
+    margin: 0.2rem 0.2rem;
+    text-align: left;
+    padding: 0px 0.8rem;
+}
+
+.dropdown-menu {
+    width: 40px;
+    margin-left: 90%;
+}
+
+.dropdown-menu:hover .dropdown-list{
+    display: block;
+    position: absolute;
+    right: 3%;
+}
+
+.dropdown-list li{
+    margin: 0.4rem 0px;
+}
+
+.no-list-style{
+    list-style: none;
+}
+
+.no-list-style li {
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.no-list-style li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
 .horizontal-list {
     list-style: none;
     padding-left: 0px;
@@ -241,7 +302,7 @@ section:nth-child(2n + 1) {
 #timeline-divider {
     position: absolute;
     width: 0;
-    top: 10%;
+    top: 8%;
     left: 50%;
     border: 1px dashed #0096fa6b;
     height: 73%;
