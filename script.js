@@ -57,7 +57,7 @@ var a = 0 ;
          }
          currentWidth++;
          bar.style.width = currentWidth + '%';
-     }, 5);
+     }, 0);
 
  }
 
